@@ -1,0 +1,52 @@
+.join-button{
+  background: #DF483C;
+  color: white;
+  border-radius:1px;
+  -webkit-border-radius:1px;
+  -moz-border-radius:1px;
+  -ms-border-radius:1px;
+  -o-border-radius:1px;
+}
+.red-text{
+  color: #DF483C;
+}
+.why-box{
+  background: #FBEEEE;
+  box-shadow: -12px -12px 24px #FFFFFF, 12px 12px 24px rgba(229, 211, 211, 0.83);
+  border-radius:2rem ;
+  -webkit-border-radius:2rem ;
+  -moz-border-radius:2rem ;
+  -ms-border-radius:2rem ;
+  -o-border-radius:2rem ;
+  height: 250px;
+}
+.join-us{
+  position: relative
+  /* background: #FBEEEE;
+  box-shadow: -12px -12px 24px #FFFFFF, 12px 12px 24px rgba(229, 211, 211, 0.83);
+  border-radius:2rem ;
+  -webkit-border-radius:2rem ;
+  -moz-border-radius:2rem ;
+  -ms-border-radius:2rem ;
+  -o-border-radius:2rem ;
+  height: 250px; */
+}
+.join-image{
+
+    bottom: 30px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+
+}
+.ju-last{
+  background-color: #DF483C;
+}
+.description-box{
+  background-color: #FEF8F7;
+}
+
+.hidden {
+  display: none;
+}
+
