@@ -14,6 +14,63 @@
   </head>
 
   <body>
+    <nav class="navbar navbar-expand-lg bg-light custom_css">
+      <div class="container-fluid">
+        <img
+          src="https://emoha.com/blogs/wp-content/uploads/2022/02/logo-red.svg"
+          loading="lazy"
+          width="150"
+          height="80"
+        />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav header_li">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                About
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Board</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Memberships</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">NRI</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Helpdesk</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+
+          <button class="sign_up_button custom_css">Sign Up</button>
+        </div>
+      </div>
+    </nav>
     <div class="container-fluid p-5 bg-primary text-white text-center">
       <h1>My First Bootstrap Page</h1>
       <p>Resize this responsive page to see the effect!</p>
@@ -329,33 +386,35 @@
                     <div class="col-12">
                       <h2>Get the Emoha App</h2>
                     </div>
-                    <div class="col-6">
-                      <a
-                        href="https://apps.apple.com/in/app/emoha/id1485996520"
-                        onclick="gtag('event', 'click', {'event_category':'IOS App Download','event_label':'App'})"
-                        ><img
-                          src="https://emoha.com/home_2022/img/app-store.svg"
-                          class="img-fluid"
-                          alt="Emoha App iOS"
-                          loading="lazy"
-                          title="Emoha App iOS"
-                          width="426"
-                          height="148"
-                      /></a>
-                    </div>
-                    <div class="col-6">
-                      <a
-                        href="https://play.google.com/store/apps/details?id=com.emoha&hl=en_IN"
-                        onclick="gtag('event', 'click', {'event_category':'Android App Download','event_label':'App'})"
-                        ><img
-                          src="https://emoha.com/home_2022/img/google-play.svg"
-                          class="img-fluid"
-                          loading="lazy"
-                          alt="Emoha App Android"
-                          title="Emoha App Android"
-                          width="426"
-                          height="148"
-                      /></a>
+                    <div class="row icon_footer">
+                      <div class="col-4">
+                        <a
+                          href="https://apps.apple.com/in/app/emoha/id1485996520"
+                          onclick="gtag('event', 'click', {'event_category':'IOS App Download','event_label':'App'})"
+                          ><img
+                            src="https://emoha.com/home_2022/img/app-store.svg"
+                            class="img-fluid"
+                            alt="Emoha App iOS"
+                            loading="lazy"
+                            title="Emoha App iOS"
+                            width="426"
+                            height="148"
+                        /></a>
+                      </div>
+                      <div class="col-4">
+                        <a
+                          href="https://play.google.com/store/apps/details?id=com.emoha&hl=en_IN"
+                          onclick="gtag('event', 'click', {'event_category':'Android App Download','event_label':'App'})"
+                          ><img
+                            src="https://emoha.com/home_2022/img/google-play.svg"
+                            class="img-fluid"
+                            loading="lazy"
+                            alt="Emoha App Android"
+                            title="Emoha App Android"
+                            width="426"
+                            height="148"
+                        /></a>
+                      </div>
                     </div>
                   </div>
                 </div>
