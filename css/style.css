@@ -64,6 +64,10 @@
   min-height: 100%;
 }
 
+.our-values {
+  background-color: #FEFBFB;
+}
+
 .join-image {
   bottom: 40px;
   position: absolute;
@@ -182,23 +186,14 @@ h2 {
   text-decoration: none;
 }
 
-body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 1rem;
-  font-weight: normal;
-  line-height: 1.4;
-  background: #ffffff;
-  color: #454545;
-}
-
-.container {
+.container-custom {
   padding: 4rem 2rem;
   margin: 0 auto;
   max-width: 75rem;
   width: 90%;
 }
 
-.main .container .glider-contain .glider .card-image {
+.main .container-custom .glider-contain .glider .card-image {
   margin-right: 0.5rem;
   background: #ffffff;
   border: none;
@@ -206,7 +201,7 @@ body {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   border-radius: 2px;
 }
-.main .container .glider-contain .glider .card-image img {
+.main .container-custom .glider-contain .glider .card-image img {
   display: block;
   position: relative;
   left: 0;
@@ -216,8 +211,8 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
 }
-.main .container .glider-contain .glider-prev,
-.main .container .glider-contain .glider-next {
+.main .container-custom .glider-contain .glider-prev,
+.main .container-custom .glider-contain .glider-next {
   font-size: 1.5rem;
   background: #454545;
   color: #ffffff;
@@ -227,8 +222,8 @@ body {
   line-height: 3rem;
   border-radius: 50%;
 }
-.main .container .glider-contain .glider-prev .fas,
-.main .container .glider-contain .glider-next .fas {
+.main .container-custom .glider-contain .glider-prev .fas,
+.main .container-custom .glider-contain .glider-next .fas {
   margin-left: 1rem;
 }
 
@@ -254,7 +249,6 @@ body {
   width: 100%;
   clear: both;
   overflow: auto;
-  background-color: #EFF9FA;
   position: relative;
   padding: 0;
 }

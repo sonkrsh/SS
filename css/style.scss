@@ -56,7 +56,9 @@
   min-width: 100%;
     min-height: 100%;
 }
-
+.our-values{
+  background-color: #FEFBFB;
+}
 
 .join-image{
 
@@ -157,16 +159,16 @@ $box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   text-decoration: none;
 }
 
-body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 1rem;
-  font-weight: normal;
-  line-height: 1.4;
-  background: $color-white;
-  color: $color-darks;
-}
+// body {
+//   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+//   font-size: 1rem;
+//   font-weight: normal;
+//   line-height: 1.4;
+//   background: $color-white;
+//   color: $color-darks;
+// }
 
-.container {
+.container-custom {
   padding: 4rem 2rem;
   margin: 0 auto;
   max-width: 75rem;
@@ -174,7 +176,7 @@ body {
 }
 
 .main {
-  .container {
+  .container-custom {
     .glider-contain {
       .glider {
         .card-image {
@@ -249,7 +251,7 @@ body {
   width: 100%;
   clear: both;
   overflow: auto;
-  background-color: #EFF9FA;
+  // background-color: #EFF9FA;
   position: relative;
   padding: 0;
 }
