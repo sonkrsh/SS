@@ -286,6 +286,14 @@
   box-sizing: border-box;
 }
 
+.block img {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
 .content-centered {
   position: absolute;
   top: 50%;
