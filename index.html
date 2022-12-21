@@ -1,563 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Career</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="/style.css" />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
   </head>
-
   <body>
-    <nav class="navbar navbar-expand-lg bg-light custom_css">
-      <div class="container-fluid">
-        <img
-          src="https://emoha.com/blogs/wp-content/uploads/2022/02/logo-red.svg"
-          loading="lazy"
-          width="150"
-          height="80"
-        />
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav header_li">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                About
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Board</a></li>
-              </ul>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="#">Memberships</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">NRI</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Helpdesk</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-
-          <button class="sign_up_button custom_css">Sign Up</button>
+    <div class="container main__container">
+      <main>
+        <div style="width: 100%; height: 100%; border: 1px solid" class="slide">
+          <div class="text">
+            <div class="topic__">Our values</div>
+            <div class="heading__">Elders First</div>
+            <div class="desc">
+              We always put our #EldersFirst in everything we do. Everything
+              about Emoha is designed exclusively for seniors, to uplift their
+              quality of life.
+            </div>
+          </div>
+          <div class="img__container">
+            <div class="pointed_circle">
+              <img src="./icon/1st.png" width="100%" alt="" srcset="" />
+            </div>
+          </div>
         </div>
-      </div>
-    </nav>
-    <div class="container-fluid p-5 bg-primary text-white text-center">
-      <h1>My First Bootstrap Page</h1>
-      <p>Resize this responsive page to see the effect!</p>
+        <div style="width: 100%; height: 100%; border: 1px solid" class="slide">
+          <div class="text">
+            <div class="topic__">Our values</div>
+            <div class="heading__">Do the right thing</div>
+            <div class="desc">
+              Leading with righteousness and integrity is what we practice. We
+              believe in building trust within our community of seniors and the
+              people who love them with the best practices.
+            </div>
+          </div>
+          <div class="img__container">
+            <div class="pointed_circle">
+              <img src="./icon/2nd.png" width="100%" alt="" srcset="" />
+            </div>
+          </div>
+        </div>
+
+        <div style="width: 100%; height: 100%; border: 1px solid" class="slide">
+          <div class="text">
+            <div class="topic__">Our values</div>
+            <div class="heading__">Do it best</div>
+            <div class="desc">
+              Collaboration has helped the Emoha family blossom into a large
+              community of seniors and those who love them. It is through the
+              combined efforts of our entire ecosystem that we are accelerating
+              towards our mission.
+            </div>
+          </div>
+          <div class="img__container">
+            <div class="pointed_circle">
+              <img src="./icon/3rd.png" width="100%" alt="" srcset="" />
+            </div>
+          </div>
+        </div>
+
+        <div style="width: 100%; height: 100%; border: 1px solid" class="slide">
+          <div class="text">
+            <div class="topic__">Our values</div>
+            <div class="heading__">Do it together</div>
+            <div class="desc">
+              Our founding team members have worked extensively in senior care
+              and have expertise to ensure that the best industry practices
+              reflect in our work.
+            </div>
+          </div>
+          <div class="img__container">
+            <div class="pointed_circle">
+              <img src="./icon/4th.png" width="100%" alt="" srcset="" />
+            </div>
+          </div>
+        </div>
+        <div class="nav">
+          <button class="prev" onclick="goPrev()">Prev</button>
+          <button class="next" onclick="goNext()">Next</button>
+        </div>
+        <script src="./script.js"></script>
+      </main>
     </div>
-
-    <div class="container-fluid">
-      <div class="row">
-        <div class="our_journey">
-          <div class="journey_text">
-            <span class="our_journey_text">Our journey </span> in making the
-            world a better place for seniors
-          </div>
-        </div>
-        <div class="horizontal_line_container">
-          <div class="horizontal_line mobile_view"></div>
-        </div>
-        <div class="col-sm-3 col-lg-3 col-xl-3 _own_css">
-          <div class="year_header">2019</div>
-          <div class="icon_container">
-            <div class="icon_adjust">
-              <img width="100%" src="./icon/2019.png" alt="" srcset="" />
-            </div>
-          </div>
-          <div class="description">
-            <div>
-              Emoha is born! The Emoha leadership team of experts with
-              experience in eldercare is formed to embark on the mission of
-              elevating the lives of seniors in their own home.
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3 col-lg-3 col-xl-3 _own_css">
-          <div class="year_header">2020</div>
-          <div class="icon_container">
-            <div class="icon_adjust">
-              <img width="100%" src="./icon/2020.png" alt="" srcset="" />
-            </div>
-          </div>
-          <div class="description">
-            During the Coronavirus pandemic, we stepped up to serve elders. With
-            Mission Elders First, 5000+ volunteers signed up to serve 3500+
-            elders in NCR as goodwill.
-          </div>
-        </div>
-        <div class="col-sm-3 col-lg-3 col-xl-3 _own_css">
-          <div class="year_header">2021</div>
-          <div class="icon_container">
-            <div class="icon_adjust">
-              <img width="100%" src="./icon/2021.png" alt="" srcset="" />
-            </div>
-          </div>
-          <div class="description">
-            With the onset of the dreaded second wave, Emoha launched the Covid
-            Isolation Unit (CIU) to support seniors with oxygen during this
-            period.
-          </div>
-        </div>
-        <div class="col-sm-3 col-lg-3 col-xl-3 _own_css">
-          <div class="year_header">2022</div>
-          <div class="icon_container">
-            <div class="icon_adjust">
-              <img width="100%" src="./icon/2022.png" alt="" srcset="" />
-            </div>
-          </div>
-          <div class="description">
-            The Emoha app was launched– one app for all seniorcare needs. In
-            just a few months, we achieved 100K app downloads. In 2022, our
-            community of Emoha seniors grew to be 40,000-plus strong!
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container mt-5">
-      <div class="row">
-        <div class="col-sm-8 py-5 text-center">
-          <p class="fs-1">
-            Passionate about seniors & <br />
-            transforming senior’s <span class="red-text">lives!</span>
-          </p>
-          <p class="fs-5">
-            Want to bring your fullest self to work? <br />
-            We’ve got big plans and they include
-            <span class="red-text">you!</span>
-          </p>
-          <input
-            class="btn px-5 join-button my-lg-5"
-            type="button"
-            value="Join Us"
-            onclick="smoothScroll()"
-          />
-        </div>
-        <div class="col-sm-4">
-          <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-4 col-4">
-              <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="Boat on Calm Water"
-              />
-
-              <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="Boat on Calm Water"
-              />
-
-              <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="Boat on Calm Water"
-              />
-              <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="Boat on Calm Water"
-              />
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-4">
-              <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="Boat on Calm Water"
-              />
-
-              <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="Boat on Calm Water"
-              />
-
-              <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="Boat on Calm Water"
-              />
-              <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="Boat on Calm Water"
-              />
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-4 col-4">
-              <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="Boat on Calm Water"
-              />
-
-              <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="Boat on Calm Water"
-              />
-
-              <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="Boat on Calm Water"
-              />
-              <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="Boat on Calm Water"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="why text-center">
-        <p class="fs-1">Why join <span class="red-text">Emoha ?</span></p>
-        <div class="row">
-          <div class="col-md-4 col-sm-4">
-            <div class="p-5 why-box">
-              <h5>Health comes first</h5>
-              <p>
-                At Emoha, your health matters. With a beneficial family health
-                and accidental insurance cover, we are by your side.
-              </p>
-            </div>
-          </div>
-
-          <div class="col-md-4 col-sm-4">
-            <div class="p-5 why-box">
-              <h5>Flexibility at work</h5>
-              <p>
-                At Emoha, you get plenty of opportunities to work on your ideas.
-                We trust you and your abilities and will nurture your ideas from
-                the start to execution.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-4">
-            <div class="p-5 why-box">
-              <h5>Mindfulness sessions</h5>
-              <p>
-                Not just your physical health but also your mental health
-                matters to us. We conduct regular mindfulness sessions to keep
-                you happy.
-              </p>
-            </div>
-          </div>
-
-          <div class="col-md-4 col-sm-4">
-            <div class="p-5 why-box">
-              <h5>Learning</h5>
-              <p>
-                We empower you to give your very best. With Emoha, acquire new
-                skills, sharpen existing ones and become better leaders. This is
-                how we ensure the growth of not just you, but also the company.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-4">
-            <div class="p-5 why-box">
-              <h5>ESOP’s</h5>
-              <p>
-                We believe in growing together and are generous with ESOPs for
-                people who treat Emoha as their own.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-4">
-            <div class="p-5 why-box">
-              <h5>Engagement</h5>
-              <p>
-                Through regular engagement activities, our employees feel a
-                connection towards their workplace. Engaged individuals are more
-                motivated, which in turn, increases their performance levels.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="join-us text-center">
-        <p class="fs-1"><span class="red-text">join</span> us</p>
-        <div class="row d-flex justify-content-evenly">
-          <div class="col-md-3 col-sm-4 col-6">
-            <div class="join-us">
-              <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="Boat on Calm Water"
-              />
-              <h3 class="join-image">Product</h3>
-            </div>
-          </div>
-
-          <div class="col-md-3 col-sm-4 col-6">
-            <div class="join-us">
-              <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="Boat on Calm Water"
-              />
-              <h3 class="join-image">Product</h3>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-4 col-6">
-            <div class="join-us">
-              <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="Boat on Calm Water"
-              />
-              <h3 class="join-image">Product</h3>
-            </div>
-          </div>
-        </div>
-
-        <div class="row d-flex justify-content-evenly">
-          <div class="col-md-3 col-sm-4 col-6">
-            <div class="join-us">
-              <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="Boat on Calm Water"
-              />
-              <h3 class="join-image">Product</h3>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-4 col-6">
-            <div class="join-us">
-              <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="Boat on Calm Water"
-              />
-              <h3 class="join-image">Product</h3>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-4 col-6">
-            <div class="join-us">
-              <img
-                src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="Boat on Calm Water"
-              />
-              <h3 class="join-image">Product</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container-fluid p-5 description-box" id="default-desc-id">
-      <div id="default-desc" class="active">
-        <p>Opportunities for you, across all teams & all locations</p>
-      </div>
-      <div id="product-desc" class="hide">
-        <p>Opportunities in Product team, across all locations</p>
-      </div>
-      <div id="cutomer-desc" class="hide">
-        <p>Opportunities in Customer relationships, across all locations.</p>
-      </div>
-      <div id="no-desc" class="hide">
-        <p>
-          We’re continuously expanding our team, keep watching this space for
-          upcoming opportunities in this function.
-        </p>
-      </div>
-    </div>
-
-    <div class="footer">
-      <div class="container">
-        <div class="row justify-content-sm-center">
-          <div class="col-sm-10">
-            <div class="footer_logo">
-              <img
-                src="https://emoha.com/blogs/wp-content/uploads/2022/02/logo-red.svg"
-                loading="lazy"
-                width="205"
-                height="124"
-              />
-            </div>
-            <div class="footer_txt">
-              <p>
-                For feedback or concerns, please email us at
-                <a href="mailto:feedback@emoha.com">feedback@emoha.com</a>
-              </p>
-            </div>
-          </div>
-          <div class="col-sm-10">
-            <div class="row">
-              <div class="footermenus">
-                <ul>
-                  <li><a href="https://emoha.com/plans">Memberships </a></li>
-                  <li><a href="https://emoha.com/blogs">Blogs </a></li>
-                  <li><a href="https://emoha.com/media">Media </a></li>
-                  <li><a href="https://emoha.com/career">Careers</a></li>
-                  <li><a href="https://emoha.com/about-us">About Us</a></li>
-                  <li>
-                    <a href="https://emoha.com/contact-us">Contact Us </a>
-                  </li>
-                  <!--<li><a href="#">Testimonials </a></li>-->
-                  <li>
-                    <a href="https://emoha.com/terms-conditions"
-                      >Terms & Conditions
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://emoha.com/privacy-policy"
-                      >Privacy Policy
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://emoha.com/cookies-policy"
-                      >Cookies Policy
-                    </a>
-                  </li>
-                  <li><a href="https://emoha.com/disclaimer">Disclaimer</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-12">
-            <div class="row justify-content-sm-center">
-              <div class="col-sm-7">
-                <div class="applogo">
-                  <div class="row">
-                    <div class="col-12">
-                      <h2>Get the Emoha App</h2>
-                    </div>
-                    <div class="row icon_footer">
-                      <div class="col-4">
-                        <a
-                          href="https://apps.apple.com/in/app/emoha/id1485996520"
-                          onclick="gtag('event', 'click', {'event_category':'IOS App Download','event_label':'App'})"
-                          ><img
-                            src="https://emoha.com/home_2022/img/app-store.svg"
-                            class="img-fluid"
-                            alt="Emoha App iOS"
-                            loading="lazy"
-                            title="Emoha App iOS"
-                            width="426"
-                            height="148"
-                        /></a>
-                      </div>
-                      <div class="col-4">
-                        <a
-                          href="https://play.google.com/store/apps/details?id=com.emoha&hl=en_IN"
-                          onclick="gtag('event', 'click', {'event_category':'Android App Download','event_label':'App'})"
-                          ><img
-                            src="https://emoha.com/home_2022/img/google-play.svg"
-                            class="img-fluid"
-                            loading="lazy"
-                            alt="Emoha App Android"
-                            title="Emoha App Android"
-                            width="426"
-                            height="148"
-                        /></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="footersocial">
-                  <div class="footer-social footer-social-media">
-                    <ul>
-                      <li>
-                        <a
-                          href="https://www.facebook.com/emohaeldercare/"
-                          target="_blank"
-                          ><img
-                            src="https://emoha.com/home_2022/img/facebook_1.svg"
-                            loading="lazy"
-                            class="img-fluid"
-                            width="64"
-                            height="64"
-                        /></a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://www.linkedin.com/company/emoha-eldercare"
-                          target="_blank"
-                          ><img
-                            src="https://emoha.com/home_2022/img/linkedin_1.svg"
-                            loading="lazy"
-                            class="img-fluid"
-                            width="64"
-                            height="64"
-                        /></a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://www.instagram.com/emohaeldercare/"
-                          target="_blank"
-                          ><img
-                            src="https://emoha.com/home_2022/img/instagram_1.svg"
-                            loading="lazy"
-                            class="img-fluid"
-                            width="64"
-                            height="64"
-                        /></a>
-                      </li>
-                      <li>
-                        <a
-                          href="https://www.youtube.com/channel/UCS2h4oH--JrrP_gjxvQpYjw"
-                          target="_blank"
-                          ><img
-                            src="https://emoha.com/home_2022/img/youtube_1.svg"
-                            loading="lazy"
-                            class="img-fluid"
-                            width="64"
-                            height="64"
-                        /></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="copyright">
-                  <p>
-                    Copyright 2021 IgnoxLabs Pvt Ltd. (Emoha Elder Care). All
-                    Rights Reserved.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <script>
-      function smoothScroll() {
-        document.querySelector("#default-desc-id").scrollIntoView({
-          behavior: "smooth",
-        });
-      }
-    </script>
   </body>
 </html>
