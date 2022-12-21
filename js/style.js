@@ -1,23 +1,35 @@
-const slides = document.querySelectorAll(".slide");
 let counter = 0;
 
-slides.forEach((slide, index) => {
-  slide.style.left = `${index * 100}%`;
-});
+const _custom_row = document.getElementsByClassName("img__container");
 
-const slideImage = () => {
-  slides.forEach((slide) => {
-    slide.style.transform = `translateX(-${counter * 100}%)`;
-  });
-};
-
-const goPrev = () => {
-  counter--;
-  slideImage();
-};
-const goNext = () => {
-  if (slides.length - 1 > counter) {
+const handeNext = () => {
+  if (counter >= 0 && counter < 3) {
     counter++;
-    slideImage();
+    console.log("==>>next", counter);
+
+    const idName = _custom_row[counter].id;
+    console.log("==>>next", idName);
+    let element = document.getElementById(idName);
+
+    element.scrollIntoView({
+      behavior: "smooth",
+      block: "nearest",
+    });
+  }
+};
+
+const handlePrev = () => {
+  if (counter <= 3 && counter > 0) {
+    counter--;
+  }
+
+  if (_custom_row.length > counter) {
+    const idName = _custom_row[counter].id;
+    let element = document.getElementById(idName);
+
+    element.scrollIntoView({
+      behavior: "smooth",
+      block: "nearest",
+    });
   }
 };
