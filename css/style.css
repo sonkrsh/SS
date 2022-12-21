@@ -31,7 +31,9 @@
   -o-border-radius: 1px;
 }
 
-.why, .life-emoha, .description-box {
+.why,
+.life-emoha,
+.description-box {
   padding: 3vw 1vw;
   background-color: #FDF7F7;
 }
@@ -137,7 +139,7 @@ h2 {
   overflow: hidden;
 }
 
-.slide_show .slide_img > div {
+.slide_show .slide_img>div {
   float: left;
   width: 280px;
   padding: 5px;
@@ -206,6 +208,7 @@ body {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   border-radius: 2px;
 }
+
 .main .container .glider-contain .glider .card-image img {
   display: block;
   position: relative;
@@ -214,8 +217,9 @@ body {
   width: 100%;
   height: auto;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
+
 .main .container .glider-contain .glider-prev,
 .main .container .glider-contain .glider-next {
   font-size: 1.5rem;
@@ -227,22 +231,26 @@ body {
   line-height: 3rem;
   border-radius: 50%;
 }
+
 .main .container .glider-contain .glider-prev .fas,
 .main .container .glider-contain .glider-next .fas {
   margin-left: 1rem;
 }
 
 @media only screen and (max-width: 768px) {
+
   .main .glider-contain .glider-prev,
-.main .glider-contain .glider-next {
+  .main .glider-contain .glider-next {
     display: none;
   }
 }
+
 @media only screen and (min-width: 769px) {
   .main .glider-contain .dots {
     display: none;
   }
 }
+
 .wrapper {
   max-width: 1300px;
   width: 100%;
@@ -268,6 +276,7 @@ body {
   float: left;
   overflow: hidden;
 }
+
 .new-feature-slider .feature-slide {
   width: 100%;
   position: absolute;
@@ -276,10 +285,12 @@ body {
   opacity: 0;
   transition: all 0.5s ease;
 }
+
 .new-feature-slider .feature-slide .feature-slide-image img {
   width: 100%;
   display: block;
 }
+
 .new-feature-slider .feature-slide.active {
   opacity: 1;
 }
@@ -288,6 +299,7 @@ body {
   position: relative;
   width: 100%;
 }
+
 .block-wrap:before {
   content: "";
   width: 100%;
@@ -336,6 +348,7 @@ body {
   border-right: solid 8px rgba(93, 193, 195, 0.4);
   overflow: visible;
 }
+
 .controls .control {
   box-sizing: border-box;
   width: 80px;
@@ -347,13 +360,17 @@ body {
   position: relative;
   float: right;
 }
+
 .controls .control:first-child {
   border-bottom: 1px solid rgba(4, 68, 86, 0.2);
 }
+
 .controls .control.button-next {
   transform: rotate(180deg);
 }
-.controls .control:before, .controls .control:after {
+
+.controls .control:before,
+.controls .control:after {
   width: 20px;
   height: 2px;
   position: absolute;
@@ -365,16 +382,21 @@ body {
   background-color: #333f4a;
   transition: all 0.3s ease;
 }
+
 .controls .control:before {
   transform: translate(-50%, -50%) rotate(45deg);
 }
+
 .controls .control:after {
   transform: translate(-50%, -50%) rotate(-45deg);
 }
+
 .controls .control:hover {
   background-color: #5dc1c3;
 }
-.controls .control:hover:before, .controls .control:hover:after {
+
+.controls .control:hover:before,
+.controls .control:hover:after {
   background-color: white;
 }
 
@@ -383,11 +405,96 @@ body {
   right: 50%;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.text {
+  width: 65%;
+}
+
+main {
+  height: 70vh;
+  margin-top: 3rem;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+.main__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  transition: 1s;
+  position: absolute;
+  display: flex;
+}
+
+.img__container img {
+  border-radius: 14rem;
+  -webkit-border-radius: 14rem;
+  -moz-border-radius: 14rem;
+  -ms-border-radius: 14rem;
+  -o-border-radius: 14rem;
+}
+
+.img__container .pointed_circle {
+  border-radius: 18rem;
+  border: 1px solid;
+  padding: 1rem;
+  border-style: dashed;
+  -webkit-border-radius: 18rem;
+  -moz-border-radius: 18rem;
+  -ms-border-radius: 18rem;
+  -o-border-radius: 18rem;
+}
+
+.img__container {
+  width: 35%;
+}
+
+.nav {
+  display: flex;
+  position: absolute;
+  bottom: 53px;
+  width: 100%;
+  justify-content: center;
+}
+
+.arrowButton {
+  border-style: none;
+  background-color: white;
+}
+
+.buutons {
+  display: flex;
+  justify-content: space-between;
+  width: 16%;
+}
+
+.buutons button {
+  width: 15%;
+}
+
 @media only screen and (max-width: 480px) {
   .section .sec-1 {
     font-size: 2.6vh;
   }
+
   .section .sec-2 {
     font-size: 14px;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
