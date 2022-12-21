@@ -3,12 +3,11 @@ let counter = 0;
 const _custom_row = document.getElementsByClassName("img__container");
 
 const handeNext = () => {
-  if (counter >= 0 && counter < 3) {
+  if (counter >= 0 && counter < _custom_row.length - 1) {
     counter++;
-    console.log("==>>next", counter);
 
     const idName = _custom_row[counter].id;
-    console.log("==>>next", idName);
+
     let element = document.getElementById(idName);
 
     element.scrollIntoView({
@@ -19,7 +18,7 @@ const handeNext = () => {
 };
 
 const handlePrev = () => {
-  if (counter <= 3 && counter > 0) {
+  if (counter <= _custom_row.length - 1 && counter > 0) {
     counter--;
   }
 

@@ -406,8 +406,8 @@ body {
 }
 
 #_custom_row {
-  overflow: scroll;
-  flex-wrap: nowrap
+  flex-wrap: nowrap;
+  overflow: hidden;
 }
 
 .img__container {
