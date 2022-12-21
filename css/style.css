@@ -1,3 +1,195 @@
+.footer_logo {
+  text-align: center;
+}
+
+.footer_txt {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 20px;
+}
+
+.footer_txt a {
+  color: #dd3941;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.applogo h2 {
+  text-align: center;
+  margin: 20px 0 30px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.footersocial {
+  text-align: center;
+  margin: 0px 0 0;
+}
+
+.footer-social {
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.footer-social ul li {
+  margin-right: 5px;
+  display: inline-block;
+  padding: 5px 10px 10px;
+}
+
+.footer-social ul li span {
+  font-size: 35px;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.5s ease 0;
+  -moz-transition: all 0.5s ease 0;
+  -ms-transition: all 0.5s ease 0;
+}
+
+.footer-social ul li img {
+  width: 40px;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.footermenus {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footermenus li {
+  display: inline-block;
+  padding: 20px 45px;
+}
+
+.footermenus li a {
+  color: #363b4b;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+#navbarSupportedContent {
+  justify-content: flex-end;
+}
+
+.custom_css {
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.14);
+}
+
+.sign_up_button {
+  padding: 14px 25px;
+  line-height: 18px;
+  margin: -11px 1px 0;
+  text-align: center !important;
+  font-size: 16px;
+  border-style: none;
+  background: #DD3741;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  cursor: pointer;
+  color: white;
+}
+
+.icon_footer {
+  justify-content: center;
+}
+
+.header_li li {
+  padding-right: 0.5rem;
+}
+
+.icon_container {
+  display: flex;
+  justify-content: center;
+}
+
+.icon_adjust {
+  width: 9rem;
+}
+
+._own_css {
+  text-align: center;
+  z-index: 1;
+}
+
+.horizontal_line {
+  border: 0;
+  border-top: 2px solid #DF483C;
+  width: 75%;
+  position: absolute;
+  margin-top: 7rem;
+  /* border-left: 2px solid #DF483C;
+  height: 500px; */
+}
+
+.horizontal_line_container {
+  padding-top: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.year_header {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.our_journey {
+  text-align: center;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.journey_text {
+  width: 40%;
+}
+
+.red_bold {
+  font-weight: bold;
+  color: #DC3941;
+}
+
+/*--mobile--*/
+@media only screen and (max-width: 768px) {
+  .footermenus li {
+    padding: 10px;
+  }
+  .footermenus li a {
+    font-size: 14px;
+  }
+  .footermenus ul {
+    padding-left: 0px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .horizontal_line {
+    width: 0%;
+  }
+  .journey_text {
+    width: 100%;
+  }
+  ._own_css {
+    padding-top: 2rem;
+  }
+  .horizontal_line_container {
+    padding-top: 0rem;
+  }
+  .our_journey {
+    margin: 20px 0px;
+    font-size: 1.4rem;
+  }
+  .our_journey_main {
+    margin: 20px 0px;
+  }
+}
 .section .sec-1 {
   font-size: 40px;
 }
@@ -502,10 +694,15 @@ body {
 .zf-templateWrapper ul {
   padding-left: 0rem;
   margin-bottom: 0px;
+  list-style-type: none;
 }
 
 .member_pop_main ul {
   padding-left: 0px;
+}
+
+form ul, form li {
+  list-style-type: none;
 }
 
 @media only screen and (max-width: 768px) {
