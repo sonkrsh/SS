@@ -223,7 +223,9 @@
   -o-border-radius: 1px;
 }
 
-.why, .life-emoha, .description-boxv {
+.why,
+.life-emoha,
+.description-boxv {
   padding: 3vw 4vw;
   background-color: #FDF7F7;
 }
@@ -259,7 +261,8 @@
   margin: 4vw 0px;
 }
 
-.join-us-main, .our_journey_main {
+.join-us-main,
+.our_journey_main {
   margin: 30px auto;
 }
 
@@ -701,8 +704,60 @@ body {
   padding-left: 0px;
 }
 
-form ul, form li {
+form ul,
+form li {
   list-style-type: none;
+}
+
+#_custom_row {
+  flex-wrap: nowrap;
+  overflow: hidden;
+  margin-top: 2rem;
+}
+
+.img__container {
+  border: 1px solid;
+  width: 100%;
+  transition: 1s;
+  padding: 1rem;
+}
+
+.img__container__oold img {
+  border-radius: 14rem;
+  -webkit-border-radius: 14rem;
+  -moz-border-radius: 14rem;
+  -ms-border-radius: 14rem;
+  -o-border-radius: 14rem;
+}
+
+.img__container__oold .pointed_circle {
+  border-radius: 18rem;
+  border: 1px solid;
+  padding: 1rem;
+  border-style: dashed;
+  -webkit-border-radius: 18rem;
+  -moz-border-radius: 18rem;
+  -ms-border-radius: 18rem;
+  -o-border-radius: 18rem;
+}
+
+.text {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.lR__button {
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+
+.lR__button button {
+  margin: 1rem 1.5rem;
+  width: 6%;
+  border-style: none;
+  background-color: white;
 }
 
 @media only screen and (max-width: 768px) {
