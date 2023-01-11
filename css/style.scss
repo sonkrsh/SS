@@ -4,7 +4,9 @@
 
 //nav  bar csss
 
-
+.footer{
+padding :5vw 0
+}
 .footer_logo {
   text-align: center;
 }
@@ -216,7 +218,7 @@
   }
 
   .our_journey_main {
-    margin: 20px 0px;
+    margin: 8vw 0px;
   }
 }
 
@@ -309,7 +311,7 @@
 
 .join-us-main,
 .our_journey_main {
-  margin: 30px auto;
+  margin: 6vw auto;
 }
 
 
@@ -1079,4 +1081,11 @@ form li {
   .join-button{
     font-size: 10px;
   }
+  .pointed_circle{
+    width: 65%;
+    margin: 20px auto;
+  }
+  .lR__button {
+    margin-top: -40px;
+}
 }
