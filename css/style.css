@@ -886,4 +886,13 @@ form li {
   .why {
     padding: 30px 0px;
   }
+  .description-box p {
+    font-size: 13px;
+  }
+  .join-us-title-last {
+    font-size: 16px !important;
+  }
+  .join-button {
+    font-size: 10px;
+  }
 }/*# sourceMappingURL=style.css.map */
