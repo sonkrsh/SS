@@ -16,14 +16,14 @@
       (n.defaults = {
         accessibility: !0,
         adaptiveHeight: !1,
-        appendArrows: i(t),
+        appendArrows: i(t).parent().parent(),
         appendDots: i(t),
         arrows: !0,
         asNavFor: null,
         prevArrow:
-          '<button class="slick-prev" aria-label="Previous" type="button">Previous</button>',
+        '<button class="slick-prev" aria-label="Previous" style="margin: 1rem 1.5rem;width: 6%;border-style: none;background-color: white;" type="button"}><i class="fas fa-arrow-left"></i></button>',
         nextArrow:
-          '<button class="slick-next" aria-label="Next" type="button">Next</button>',
+        '<button class="slick-next" aria-label="Next" type="button" style="margin: 1rem 1.5rem;width: 6%;border-style: none;background-color: white;" type="button"><i class="fas fa-arrow-right"></i></button>',
         autoplay: !1,
         autoplaySpeed: 3e3,
         centerMode: !1,
@@ -299,7 +299,7 @@
               .removeClass("slick-hidden")
               .removeAttr("aria-hidden tabindex"),
             e.htmlExpr.test(e.options.prevArrow) &&
-              e.$prevArrow.prependTo(e.options.appendArrows),
+              e.$prevArrow.appendTo(e.options.appendArrows),
             e.htmlExpr.test(e.options.nextArrow) &&
               e.$nextArrow.appendTo(e.options.appendArrows),
             !0 !== e.options.infinite &&

@@ -10,7 +10,7 @@
      -webkit-flex: 0 0 auto;
      -ms-flex: 0 0 auto;
      flex: 0 0 auto;
-     opacity: 0.34;
+     /* opacity: 0.34; */
      -webkit-transform: scale(0.9);
      -ms-transform: scale(0.9);
      transform: scale(0.9);
@@ -39,6 +39,8 @@
    
    .card-number {
     font-family: 'Poppins';
+    text-decoration: underline;
+    text-underline-position: under;
     /* font-style: normal; */
     font-weight: 600;
      color:#fff ;
@@ -146,16 +148,19 @@
    }
    
    .card {
-     margin-right: 15px;
-     margin-left: 15px;
+     margin-right: 45px;
+     margin-left: 45px;
      padding: 40px;
      border-radius: 20px;
      background: linear-gradient(104.85deg, #DF483C -7.91%, rgba(223, 72, 60, 0.6) 100%);
-     box-shadow: 0px 24px 34px rgba(0, 0, 0, 0.14);
+     /* box-shadow: 0px 24px 34px rgba(0, 0, 0, 0.14); */
      backdrop-filter: blur(15px);
      transition: all 200ms ease;
      color: #fff;
+     border: none;
+     border-color: transparent;
    }
+
    
    .card.myclass {
      background-color: #292828;
