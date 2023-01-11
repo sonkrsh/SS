@@ -954,6 +954,48 @@ form li {
   margin: 15px 0;
 }
 
+@media (max-width: 992px) {
+  .navbar-collapse {
+    position: fixed;
+    top: 0px;
+    /* adjust to height of navbar */
+    left: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    background-color: white;
+    height: 106vh;
+  }
+
+  .navbar-collapse.collapsing {
+    left: -75%;
+    transition: height 0s ease;
+  }
+
+  .navbar-collapse.show {
+    left: 0;
+    transition: left 300ms ease-in-out;
+  }
+
+  .navbar-toggler.collapsed~.navbar-collapse {
+    transition: left 500ms ease-in-out;
+  }
+
+  .header_li li {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 8px 0px;
+  }
+
+  .dropdown-menu li {
+    border-bottom: none;
+  }
+
+  .dropdown-menu {
+    padding: 0;
+    margin: 0;
+  }
+}
 @media only screen and (max-width: 768px) {
   .member_pop_main {
     left: 10px;
