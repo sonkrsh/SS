@@ -24,8 +24,8 @@
         '<button class="slick-prev" aria-label="Previous" style="margin: 1rem 1.5rem;width: 6%;border-style: none;background-color: white;" type="button"}><i class="fas fa-arrow-left"></i></button>',
         nextArrow:
         '<button class="slick-next" aria-label="Next" type="button" style="margin: 1rem 1.5rem;width: 6%;border-style: none;background-color: white;" type="button"><i class="fas fa-arrow-right"></i></button>',
-        autoplay: !1,
-        autoplaySpeed: 3e3,
+        autoplay: 1,
+        autoplaySpeed: 2000,
         centerMode: !1,
         centerPadding: "50px",
         cssEase: "ease",
