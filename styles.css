@@ -151,15 +151,19 @@
      margin-right: 45px;
      margin-left: 45px;
      padding: 40px;
-     border-radius: 20px;
+     border-radius: 10px;
      background: linear-gradient(104.85deg, #DF483C -7.91%, rgba(223, 72, 60, 0.6) 100%);
-     /* box-shadow: 0px 24px 34px rgba(0, 0, 0, 0.14); */
-     backdrop-filter: blur(15px);
+     /*box-shadow: 0px 24px 34px rgba(0, 0, 0, 0.14);
+     */backdrop-filter: blur(15px);
      transition: all 200ms ease;
      color: #fff;
      border: none;
      border-color: transparent;
-   }
+     -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+     -ms-border-radius: 10px;
+     -o-border-radius: 10px;
+}
 
    
    .card.myclass {
@@ -188,9 +192,12 @@
    }
    .card-header{
     font-size: 4vw;
+    margin-bottom: 0px;
    }
    .card{
     padding: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
    }
    .card-content{
     font-size: 12px;
@@ -198,4 +205,6 @@
    .wrapper-1{
     height: 399px;
    }
+  
+    
   }

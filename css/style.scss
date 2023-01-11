@@ -161,13 +161,19 @@
 }
 
 .journey_text {
-  width: 40%;
+  width: 70%;
 }
 
 .red_bold {
   font-weight: 700;
   color: #DC3941;
 }
+
+
+.head-line-font{
+  font-size: 55px;
+}
+
 
 /*--mobile--*/
 @media only screen and (max-width: 768px) {
@@ -234,6 +240,7 @@
   font-family: 'Playfair Display', serif !important;
 }
 
+
 // .section {
 //   text-align: center;
 // }
@@ -243,14 +250,14 @@
   margin: 2rem 0;
 }
 
-.section .sec-2,
-.desc {
-  font-size: 20px;
-}
+// .section .sec-2,
+// .desc {
+//   font-size: 20px;
+// }
 
-.section .sec-1 {
-  font-size: 50px;
-}
+// .section .sec-1 {
+//   font-size: 50px;
+// }
 
 .profile-pic {
   border-radius: 10px;
@@ -274,16 +281,12 @@
 }
 
 .why,
-.life-emoha,
-.description-boxv {
+.life-emoha{
   padding: 3vw 4vw;
   background-color: #FDF7F7;
 }
 
-.description-boxv {
-  // padding: 3vw 1vw;
-  background: #FEF8F7;
-}
+
 
 
 .our-values {
@@ -392,6 +395,7 @@
 .description-box {
   background-color: #FEF8F7;
   padding: 5vw 0px;
+  margin-top: 13vw
 }
 
 .description-box .active {
@@ -753,6 +757,7 @@ body {
 
 .join-us-title-last {
   font-size: 25px;
+  margin-bottom: 4vw;
 }
 
 .the-emoha-y {
@@ -874,7 +879,7 @@ form li {
   // border: 1px solid;
   width: 100%;
   transition: 1s;
-  padding: 1rem;
+  padding: 4rem 1rem;
 }
 
 .img__container__oold img {
@@ -968,20 +973,52 @@ form li {
 }
 
 
+.sub-heading{
+  font-size: 25px;
+}
+
 @media only screen and (max-width: 480px) {
 
   .join-image {
     height: 40%;
   }
 
-  .section .sec-1 {
-    font-size: 2.6vh;
+  .section{
+    text-align: center;
   }
 
-  .section .sec-2,
-  .desc {
-    font-size: 14px;
+  .head-line-font{
+    font-size: 22px;
   }
+  .profile-pic-container{
+    margin: 0 45px;
+  }
+  .profile-pic-container .col-4{
+    width: 33%;
+  }
+  .profile-pic{
+   height:70px
+  }
+  .sub-heading{
+    font-size: 13px;
+  }
+  .img__container {
+    padding: 1rem 1rem;
+}
+  .pointed_circle{
+    margin-top: 25px;
+  }
+.lR__button{
+  // margin-top:-100px ;
+}
+  // .section .sec-1 {
+  //   font-size: 2.6vh;
+  // }
+
+  // .section .sec-2,
+  // .desc {
+  //   font-size: 14px;
+  // }
 
   .our-value-para {
     font-size: 14px;
@@ -997,6 +1034,7 @@ form li {
 
   .description-box {
     padding: 7vw 3px;
+    margin-top: 1vw
   }
 
   .why-box h5{
