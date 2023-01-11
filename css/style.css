@@ -886,6 +886,11 @@ form li {
   .dropdown-menu li {
     border-bottom: none;
   }
+
+  .dropdown-menu {
+    padding: 0;
+    margin: 0;
+  }
 }
 
 @media only screen and (max-width: 768px) {
