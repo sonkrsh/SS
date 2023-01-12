@@ -954,6 +954,10 @@ form li {
   margin: 15px 0;
 }
 
+.fa, .fas {
+  font-weight: 900;
+  color: black!important;
+}
 @media (max-width: 992px) {
   .navbar-collapse {
     position: fixed;
@@ -1129,5 +1133,14 @@ form li {
   }
   .lR__button {
     margin-top: -40px;
+}
+.desc-text{
+  text-align: left;
+}
+.navbar  img{
+  width: 130px!important;
+}
+.footer-social ul{
+  padding: 0;
 }
 }
