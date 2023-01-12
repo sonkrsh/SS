@@ -21,9 +21,9 @@
         arrows: !0,
         asNavFor: null,
         prevArrow:
-        '<button class="slick-prev" aria-label="Previous" style="margin: 1rem 1.5rem;width: 6%;border-style: none;background-color: white;" type="button"}><i class="fas fa-arrow-left"></i></button>',
+        '<button class="slick-prev" aria-label="Previous" style="margin: 1rem 1.5rem;width: 6%;border-style: none;background-color: white;" type="button"}> <img src="img/left-arrow.png" width="15"  /></button>',
         nextArrow:
-        '<button class="slick-next" aria-label="Next" type="button" style="margin: 1rem 1.5rem;width: 6%;border-style: none;background-color: white;" type="button"><i class="fas fa-arrow-right"></i></button>',
+        '<button class="slick-next" aria-label="Next" type="button" style="margin: 1rem 1.5rem;width: 6%;border-style: none;background-color: white;" type="button"><img src="img/right-arrow.png" width="15"  /></button>',
         autoplay: 1,
         autoplaySpeed: 2000,
         centerMode: !1,
