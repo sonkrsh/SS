@@ -954,10 +954,14 @@ form li {
   margin: 15px 0;
 }
 
-.fa, .fas {
+.slider1 .fa,.lR__button .fa{
   font-weight: 900;
   color: black!important;
 }
+.join-us .fa-arrow-righ{
+  color: white
+}
+
 @media (max-width: 992px) {
   .navbar-collapse {
     position: fixed;
@@ -1134,13 +1138,22 @@ form li {
   .lR__button {
     margin-top: -40px;
 }
-.desc-text{
-  text-align: left;
-}
+
 .navbar  img{
   width: 130px!important;
 }
 .footer-social ul{
   padding: 0;
+}
+.join-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottom-class{
+  margin: 0px;
+}
+.desc-text{
+  text-align: left;
 }
 }
